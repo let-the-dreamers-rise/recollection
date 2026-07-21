@@ -4,8 +4,9 @@ Use this as a recording runbook, not as a claim that a fallback or mock path is 
 
 ## Before recording
 
-- Configure the deployed `OPENAI_API_KEY` and demonstrate the visible **GPT-5.6** source label.
-- Configure the deployed `FAL_KEY`, then create one approved visual bridge as described below.
+- Record the real private flow at `http://127.0.0.1:3000`. This local app already reads `OPENAI_API_KEY` and `FAL_KEY` from the ignored `.env.local`, so the provider keys never appear in the recording or in the browser.
+- Use the deployed `/demo` page for the no-login judge walkthrough and the already-reviewed FAL bridge. It deliberately plays the completed people-free FAL asset rather than pretending that hosted rendering is available.
+- Do not trigger another FAL render for this video: the approved eight-second bridge is already in `public/recollection-ambient-bridge.mp4` and is ready to cut in at 2:03.
 - Keep browser zoom at 100%, close unrelated tabs, and turn off desktop notifications.
 - Use your own voice or an original licensed voiceover. Do not use copyrighted music or a third-party family photo without permission.
 - Keep the public YouTube upload below 3:00 and make it viewable before pasting its URL into Devpost.
