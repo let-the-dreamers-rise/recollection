@@ -501,6 +501,8 @@
 .demo-letter { right: 28%; bottom: 19%; width: 4.4rem; height: 3.1rem; border: 1px solid oklch(93% .06 82 / .65); background: oklch(87% .1 82 / .48); transform: rotate(9deg) scale(.7); }
 .demo-ambient.is-open .demo-letter { transform: rotate(9deg) scale(1); }
 .demo-ambient p { position: absolute; left: 1rem; right: 1rem; bottom: .7rem; margin: 0; color: var(--ink-soft); font-size: .69rem; letter-spacing: .04em; }
+.demo-ambient-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.demo-ambient .demo-ambient-caption { left: .75rem; right: .75rem; bottom: .75rem; width: fit-content; max-width: calc(100% - 1.5rem); padding: .48rem .65rem; border: 1px solid oklch(93% .06 82 / .25); border-radius: .35rem; background: oklch(16% .04 307 / .72); color: oklch(96% .03 83); font-weight: 700; line-height: 1.35; text-transform: uppercase; backdrop-filter: blur(.45rem); }
 
 .demo-close { max-width: 52rem; padding: clamp(5rem, 10vw, 9rem) 0; text-align: center; }
 .demo-close h2 { font-size: clamp(2.7rem, 5vw, 4.7rem); }
