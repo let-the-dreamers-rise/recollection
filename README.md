@@ -12,8 +12,8 @@ The product is intentionally not a fake-memory generator. Every item is visibly 
 
 ## Judge path
 
-- **No-login walkthrough:** open `/demo`. It uses clearly marked fictional sample data and demonstrates the complete product story.
-- **Real private flow:** open `/login`, use a passwordless email link, create an Age Chain, then send a 14-day revocable invitation.
+- **No-login walkthrough:** [open the live judge demo](https://recollection-age-chain.vercel.app/demo). It uses clearly marked fictional sample data and demonstrates the complete product story.
+- **Real private flow:** [open the deployed login](https://recollection-age-chain.vercel.app/login), use a passwordless email link, create an Age Chain, then send a 14-day revocable invitation.
 - **Privacy:** no public profiles, no shared family passwords, private object storage, server-side checks, and Supabase Row Level Security.
 
 ## What is implemented
@@ -61,7 +61,7 @@ Run the migrations in `supabase/migrations/` against the target Supabase project
 Create a Vercel project from this repository and add the same environment variables for Production. Never expose `SUPABASE_SERVICE_ROLE_KEY`, `OPENAI_API_KEY`, or `FAL_KEY` to the browser. After Vercel assigns a URL, add:
 
 ```text
-https://YOUR-DEPLOYMENT.vercel.app/auth/callback
+https://recollection-age-chain.vercel.app/auth/callback
 ```
 
 to the Supabase Auth redirect allow-list. Then test both `/demo` and the real magic-link flow on the deployed URL.

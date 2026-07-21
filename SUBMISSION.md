@@ -4,6 +4,12 @@
 
 **Apps for Your Life**
 
+## Live project
+
+**Judge demo:** https://recollection-age-chain.vercel.app/demo
+
+**Real private login:** https://recollection-age-chain.vercel.app/login
+
 ## Devpost field copy
 
 Review this in your own voice before submitting, then paste it into Devpost.
