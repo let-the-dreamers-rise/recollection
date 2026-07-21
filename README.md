@@ -76,6 +76,8 @@ The FAL action is an explicit owner click. It receives a fixed prompt for a sile
 
 Read [BUILD_WITH_CODEX.md](./BUILD_WITH_CODEX.md) for the honest build record: product decisions, private Supabase architecture, grounded GPT-5.6 usage, FAL safety boundary, and release-quality work completed with Codex.
 
+For the required public YouTube demo, use the [2:48 recording runbook](./DEMO_VIDEO.md). It includes the exact product sequence, the narration, and the single people-free FAL shot specification.
+
 ## Release verification
 
 ```powershell
