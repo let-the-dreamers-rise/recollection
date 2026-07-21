@@ -26,9 +26,9 @@ Use this as a recording runbook, not as a claim that a fallback or mock path is 
 
 ## One approved FAL render
 
-**Model:** `fal-ai/kling-video/v3/turbo/standard/text-to-video`  
-**Duration:** 8 seconds  
-**Audio:** disabled  
+- **Model:** `fal-ai/kling-video/v3/turbo/standard/text-to-video`
+- **Duration:** 8 seconds
+- **Audio:** disabled
 **Current listed rate:** $0.112/second, so this one render is approximately **$0.90** before any retries.
 
 The app submits this fixed safe prompt:
